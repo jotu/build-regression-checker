@@ -1,0 +1,14 @@
+<div>
+    If the results of the code quality analysis worsens compared to that of the last successful build, mark
+    the build as a failure. The net effect is that developers can no longer increase the code analysis warning count.
+
+    <p>
+    For example, say if you introduce 5 more warnings in build #10. This will mark your build a failure.
+    If you fix 2 warnings in build #11, the build is still marked as a failure as you have 3 more warnings
+    to fix. If you remove 3 warnings in build #12, then the build will be now marked as a success. So the
+    system behaves as if there's an invisible threshold that progressively gets lower and lower.
+
+    <p>
+    If for whatever reason you need to reset the threshold, remove this post-build step from your job,
+    produce a successful build, then re-enable it back in.
+</div>

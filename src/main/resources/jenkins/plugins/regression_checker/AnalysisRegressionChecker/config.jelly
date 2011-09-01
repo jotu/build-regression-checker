@@ -1,0 +1,26 @@
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form">
+  <j:if test="${descriptor.hasFindbugs()}">
+    <f:nested>
+      <f:checkbox field="checkFindbugs"  />
+      <label class="attach-previous">FindBugs</label>
+    </f:nested>
+  </j:if>
+  <j:if test="${descriptor.hasPMD()}">
+    <f:nested>
+      <f:checkbox field="checkPMD"  />
+      <label class="attach-previous">PMD</label>
+    </f:nested>
+  </j:if>
+   <j:if test="${descriptor.hasCheckstyle()}">
+    <f:nested>
+      <f:checkbox field="checkCheckstyle" />
+      <label class="attach-previous">Checkstyle</label>
+    </f:nested>
+  </j:if>
+   <j:if test="${descriptor.hasCobertura()}">
+    <f:nested>
+      <f:checkbox field="checkCobertura" />
+      <label class="attach-previous">Cobertura</label>
+    </f:nested>
+  </j:if>
+</j:jelly>

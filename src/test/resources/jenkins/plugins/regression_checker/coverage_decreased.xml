@@ -1,0 +1,737 @@
+<?xml version="1.0"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+
+<coverage line-rate="0.5254237288135594" branch-rate="0.2619047619047619" lines-covered="93" lines-valid="177" branches-covered="11" branches-valid="42" complexity="1.763157894736842" version="1.9.4.1" timestamp="1291184609342">
+	<sources>
+		<source>--source</source>
+		<source>/home/hudson/workspace/src/main/java</source>
+	</sources>
+	<packages>
+		<package name="adapter.ppc.client" line-rate="0.7011494252873564" branch-rate="0.4166666666666667" complexity="1.6470588235294117">
+			<classes>
+				<class name="adapter.ppc.client.PPCAdapterException" filename="adapter/ppc/client/PPCAdapterException.java" line-rate="0.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="(Ljava/lang/String;)V" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="21" hits="0" branch="false"/>
+								<line number="22" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="21" hits="0" branch="false"/>
+						<line number="22" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="adapter.ppc.client.PPCClient" filename="adapter/ppc/client/PPCClient.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+					</methods>
+					<lines>
+					</lines>
+				</class>
+				<class name="adapter.ppc.client.PPCClientImpl" filename="adapter/ppc/client/PPCClientImpl.java" line-rate="0.2857142857142857" branch-rate="0.0" complexity="3.3333333333333335">
+					<methods>
+						<method name="&lt;init&gt;" signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="29" hits="1" branch="false"/>
+								<line number="46" hits="1" branch="false"/>
+								<line number="47" hits="1" branch="false"/>
+								<line number="48" hits="1" branch="false"/>
+								<line number="49" hits="1" branch="false"/>
+								<line number="50" hits="1" branch="false"/>
+								<line number="51" hits="1" branch="false"/>
+								<line number="52" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="callServlet" signature="(Ladapter/ppc/util/PPCRequest;)Ladapter/ppc/util/PPCResponse;" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="61" hits="0" branch="false"/>
+								<line number="63" hits="0" branch="false"/>
+								<line number="65" hits="0" branch="false"/>
+								<line number="66" hits="0" branch="false"/>
+								<line number="67" hits="0" branch="false"/>
+								<line number="68" hits="0" branch="false"/>
+								<line number="69" hits="0" branch="false"/>
+								<line number="70" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="ping" signature="()Lframework/adapter/ping/PingResult;" line-rate="0.0" branch-rate="0.0">
+							<lines>
+								<line number="80" hits="0" branch="false"/>
+								<line number="83" hits="0" branch="false"/>
+								<line number="84" hits="0" branch="false"/>
+								<line number="86" hits="0" branch="false"/>
+								<line number="87" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="89" hits="0" branch="false"/>
+								<line number="91" hits="0" branch="false"/>
+								<line number="92" hits="0" branch="false"/>
+								<line number="93" hits="0" branch="false"/>
+								<line number="95" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="96" hits="0" branch="false"/>
+								<line number="98" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="29" hits="1" branch="false"/>
+						<line number="46" hits="1" branch="false"/>
+						<line number="47" hits="1" branch="false"/>
+						<line number="48" hits="1" branch="false"/>
+						<line number="49" hits="1" branch="false"/>
+						<line number="50" hits="1" branch="false"/>
+						<line number="51" hits="1" branch="false"/>
+						<line number="52" hits="1" branch="false"/>
+						<line number="61" hits="0" branch="false"/>
+						<line number="63" hits="0" branch="false"/>
+						<line number="65" hits="0" branch="false"/>
+						<line number="66" hits="0" branch="false"/>
+						<line number="67" hits="0" branch="false"/>
+						<line number="68" hits="0" branch="false"/>
+						<line number="69" hits="0" branch="false"/>
+						<line number="70" hits="0" branch="false"/>
+						<line number="80" hits="0" branch="false"/>
+						<line number="83" hits="0" branch="false"/>
+						<line number="84" hits="0" branch="false"/>
+						<line number="86" hits="0" branch="false"/>
+						<line number="87" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="89" hits="0" branch="false"/>
+						<line number="91" hits="0" branch="false"/>
+						<line number="92" hits="0" branch="false"/>
+						<line number="93" hits="0" branch="false"/>
+						<line number="95" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="96" hits="0" branch="false"/>
+						<line number="98" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="adapter.ppc.client.PPCClientStub" filename="adapter/ppc/client/PPCClientStub.java" line-rate="0.8823529411764706" branch-rate="0.5" complexity="1.6666666666666667">
+					<methods>
+						<method name="&lt;init&gt;" signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="18" hits="4" branch="false"/>
+								<line number="35" hits="4" branch="false"/>
+								<line number="36" hits="4" branch="false"/>
+								<line number="38" hits="4" branch="false"/>
+							</lines>
+						</method>
+						<method name="callServlet" signature="(Ladapter/ppc/util/PPCRequest;)Ladapter/ppc/util/PPCResponse;" line-rate="0.8181818181818182" branch-rate="0.5">
+							<lines>
+								<line number="46" hits="1" branch="false"/>
+								<line number="50" hits="1" branch="false"/>
+								<line number="51" hits="1" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="52" hits="0" branch="false"/>
+								<line number="53" hits="1" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="54" hits="1" branch="false"/>
+								<line number="61" hits="1" branch="false"/>
+								<line number="62" hits="1" branch="false"/>
+								<line number="63" hits="0" branch="false"/>
+								<line number="65" hits="1" branch="false"/>
+								<line number="67" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="ping" signature="()Lframework/adapter/ping/PingResult;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="76" hits="2" branch="false"/>
+								<line number="79" hits="2" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="18" hits="4" branch="false"/>
+						<line number="35" hits="4" branch="false"/>
+						<line number="36" hits="4" branch="false"/>
+						<line number="38" hits="4" branch="false"/>
+						<line number="46" hits="1" branch="false"/>
+						<line number="50" hits="1" branch="false"/>
+						<line number="51" hits="1" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="52" hits="0" branch="false"/>
+						<line number="53" hits="1" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="54" hits="1" branch="false"/>
+						<line number="61" hits="1" branch="false"/>
+						<line number="62" hits="1" branch="false"/>
+						<line number="63" hits="0" branch="false"/>
+						<line number="65" hits="1" branch="false"/>
+						<line number="67" hits="1" branch="false"/>
+						<line number="76" hits="2" branch="false"/>
+						<line number="79" hits="2" branch="false"/>
+					</lines>
+				</class>
+				<class name="adapter.ppc.client.PerformRefill" filename="adapter/ppc/client/PerformRefill.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+					</methods>
+					<lines>
+					</lines>
+				</class>
+				<class name="adapter.ppc.client.PerformRefillImpl" filename="adapter/ppc/client/PerformRefillImpl.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="(Ladapter/ppc/client/PPCClient;)V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="24" hits="5" branch="false"/>
+								<line number="25" hits="5" branch="false"/>
+								<line number="26" hits="5" branch="false"/>
+							</lines>
+						</method>
+						<method name="refill" signature="(Ldomain/refill/Refill;)Ladapter/ppc/util/PPCStatus;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="34" hits="2" branch="false"/>
+								<line number="35" hits="2" branch="false"/>
+								<line number="36" hits="2" branch="false"/>
+								<line number="40" hits="2" branch="false"/>
+								<line number="41" hits="2" branch="false"/>
+								<line number="42" hits="2" branch="false"/>
+								<line number="43" hits="2" branch="false"/>
+								<line number="44" hits="2" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="24" hits="5" branch="false"/>
+						<line number="25" hits="5" branch="false"/>
+						<line number="26" hits="5" branch="false"/>
+						<line number="34" hits="2" branch="false"/>
+						<line number="35" hits="2" branch="false"/>
+						<line number="36" hits="2" branch="false"/>
+						<line number="40" hits="2" branch="false"/>
+						<line number="41" hits="2" branch="false"/>
+						<line number="42" hits="2" branch="false"/>
+						<line number="43" hits="2" branch="false"/>
+						<line number="44" hits="2" branch="false"/>
+					</lines>
+				</class>
+				<class name="adapter.ppc.client.ValidateRefill" filename="adapter/ppc/client/ValidateRefill.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+					</methods>
+					<lines>
+					</lines>
+				</class>
+				<class name="adapter.ppc.client.ValidateRefillImpl" filename="adapter/ppc/client/ValidateRefillImpl.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="(Ladapter/ppc/client/PPCClient;)V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="24" hits="5" branch="false"/>
+								<line number="25" hits="5" branch="false"/>
+								<line number="26" hits="5" branch="false"/>
+							</lines>
+						</method>
+						<method name="validate" signature="(Ldomain/refill/Refill;)Ladapter/ppc/util/PPCStatus;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="34" hits="2" branch="false"/>
+								<line number="35" hits="2" branch="false"/>
+								<line number="36" hits="2" branch="false"/>
+								<line number="40" hits="2" branch="false"/>
+								<line number="41" hits="2" branch="false"/>
+								<line number="42" hits="2" branch="false"/>
+								<line number="43" hits="2" branch="false"/>
+								<line number="44" hits="2" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="24" hits="5" branch="false"/>
+						<line number="25" hits="5" branch="false"/>
+						<line number="26" hits="5" branch="false"/>
+						<line number="34" hits="2" branch="false"/>
+						<line number="35" hits="2" branch="false"/>
+						<line number="36" hits="2" branch="false"/>
+						<line number="40" hits="2" branch="false"/>
+						<line number="41" hits="2" branch="false"/>
+						<line number="42" hits="2" branch="false"/>
+						<line number="43" hits="2" branch="false"/>
+						<line number="44" hits="2" branch="false"/>
+					</lines>
+				</class>
+				<class name="adapter.ppc.client.ValidateRefillNumber" filename="adapter/ppc/client/ValidateRefillNumber.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+					</methods>
+					<lines>
+					</lines>
+				</class>
+				<class name="adapter.ppc.client.ValidateRefillNumberImpl" filename="adapter/ppc/client/ValidateRefillNumberImpl.java" line-rate="0.8888888888888888" branch-rate="0.75" complexity="2.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="(Ladapter/ppc/client/PPCClient;)V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="18" hits="5" branch="false"/>
+								<line number="36" hits="5" branch="false"/>
+								<line number="37" hits="5" branch="false"/>
+								<line number="38" hits="5" branch="false"/>
+							</lines>
+						</method>
+						<method name="validate" signature="(Ldomain/CellPhoneNumber;)Z" line-rate="0.8571428571428571" branch-rate="0.75">
+							<lines>
+								<line number="46" hits="2" branch="false"/>
+								<line number="47" hits="2" branch="false"/>
+								<line number="48" hits="2" branch="false"/>
+								<line number="50" hits="2" branch="false"/>
+								<line number="52" hits="2" branch="false"/>
+								<line number="53" hits="2" branch="false"/>
+								<line number="55" hits="2" branch="false"/>
+								<line number="58" hits="2" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="59" hits="0" branch="false"/>
+								<line number="61" hits="0" branch="false"/>
+								<line number="63" hits="2" branch="false"/>
+								<line number="65" hits="2" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="66" hits="1" branch="false"/>
+								<line number="69" hits="2" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="18" hits="5" branch="false"/>
+						<line number="36" hits="5" branch="false"/>
+						<line number="37" hits="5" branch="false"/>
+						<line number="38" hits="5" branch="false"/>
+						<line number="46" hits="2" branch="false"/>
+						<line number="47" hits="2" branch="false"/>
+						<line number="48" hits="2" branch="false"/>
+						<line number="50" hits="2" branch="false"/>
+						<line number="52" hits="2" branch="false"/>
+						<line number="53" hits="2" branch="false"/>
+						<line number="55" hits="2" branch="false"/>
+						<line number="58" hits="2" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="59" hits="0" branch="false"/>
+						<line number="61" hits="0" branch="false"/>
+						<line number="63" hits="2" branch="false"/>
+						<line number="65" hits="2" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="66" hits="1" branch="false"/>
+						<line number="69" hits="2" branch="false"/>
+					</lines>
+				</class>
+			</classes>
+		</package>
+		<package name="adapter.ppc.util" line-rate="0.35555555555555557" branch-rate="0.2" complexity="1.8571428571428572">
+			<classes>
+				<class name="adapter.ppc.util.PPCRequest" filename="adapter/ppc/util/PPCRequest.java" line-rate="0.8333333333333334" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="15" hits="7" branch="false"/>
+								<line number="16" hits="7" branch="false"/>
+							</lines>
+						</method>
+						<method name="getValue" signature="()Ljava/lang/String;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="23" hits="4" branch="false"/>
+							</lines>
+						</method>
+						<method name="setValue" signature="(Ljava/lang/String;)V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="19" hits="7" branch="false"/>
+								<line number="20" hits="7" branch="false"/>
+							</lines>
+						</method>
+						<method name="toString" signature="()Ljava/lang/String;" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="33" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="15" hits="7" branch="false"/>
+						<line number="16" hits="7" branch="false"/>
+						<line number="19" hits="7" branch="false"/>
+						<line number="20" hits="7" branch="false"/>
+						<line number="23" hits="4" branch="false"/>
+						<line number="33" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="adapter.ppc.util.PPCResponse" filename="adapter/ppc/util/PPCResponse.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="15" hits="7" branch="false"/>
+								<line number="16" hits="7" branch="false"/>
+							</lines>
+						</method>
+						<method name="getValue" signature="()Ljava/lang/String;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="23" hits="12" branch="false"/>
+							</lines>
+						</method>
+						<method name="setValue" signature="(Ljava/lang/String;)V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="19" hits="7" branch="false"/>
+								<line number="20" hits="7" branch="false"/>
+							</lines>
+						</method>
+						<method name="toString" signature="()Ljava/lang/String;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="33" hits="1" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="15" hits="7" branch="false"/>
+						<line number="16" hits="7" branch="false"/>
+						<line number="19" hits="7" branch="false"/>
+						<line number="20" hits="7" branch="false"/>
+						<line number="23" hits="12" branch="false"/>
+						<line number="33" hits="1" branch="false"/>
+					</lines>
+				</class>
+				<class name="adapter.ppc.util.PPCStatus" filename="adapter/ppc/util/PPCStatus.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="15" hits="4" branch="false"/>
+								<line number="16" hits="4" branch="false"/>
+							</lines>
+						</method>
+						<method name="getValue" signature="()Ljava/lang/String;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="23" hits="8" branch="false"/>
+							</lines>
+						</method>
+						<method name="setValue" signature="(Ljava/lang/String;)V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="19" hits="4" branch="false"/>
+								<line number="20" hits="4" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="15" hits="4" branch="false"/>
+						<line number="16" hits="4" branch="false"/>
+						<line number="19" hits="4" branch="false"/>
+						<line number="20" hits="4" branch="false"/>
+						<line number="23" hits="8" branch="false"/>
+					</lines>
+				</class>
+				<class name="adapter.ppc.util.PPCUtil" filename="adapter/ppc/util/PPCUtil.java" line-rate="0.2191780821917808" branch-rate="0.2" complexity="2.8">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="27" hits="0" branch="false"/>
+								<line number="29" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="callHttp" signature="(Ljava/net/URL;Ljava/lang/String;)Ljava/lang/String;" line-rate="0.0" branch-rate="0.0">
+							<lines>
+								<line number="226" hits="0" branch="false"/>
+								<line number="227" hits="0" branch="false"/>
+								<line number="228" hits="0" branch="false"/>
+								<line number="231" hits="0" branch="false"/>
+								<line number="233" hits="0" branch="false"/>
+								<line number="234" hits="0" branch="false"/>
+								<line number="235" hits="0" branch="false"/>
+								<line number="236" hits="0" branch="false"/>
+								<line number="237" hits="0" branch="false"/>
+								<line number="239" hits="0" branch="false"/>
+								<line number="242" hits="0" branch="false"/>
+								<line number="245" hits="0" branch="false"/>
+								<line number="246" hits="0" branch="false"/>
+								<line number="249" hits="0" branch="false"/>
+								<line number="250" hits="0" branch="false"/>
+								<line number="254" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="255" hits="0" branch="false"/>
+								<line number="258" hits="0" branch="false"/>
+								<line number="260" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="261" hits="0" branch="false"/>
+								<line number="263" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="264" hits="0" branch="false"/>
+								<line number="266" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="267" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="callHttps" signature="(Ljava/net/URL;Ljava/lang/String;)Ljava/lang/String;" line-rate="0.0" branch-rate="0.0">
+							<lines>
+								<line number="285" hits="0" branch="false"/>
+								<line number="286" hits="0" branch="false"/>
+								<line number="287" hits="0" branch="false"/>
+								<line number="288" hits="0" branch="false"/>
+								<line number="291" hits="0" branch="false"/>
+								<line number="292" hits="0" branch="false"/>
+								<line number="293" hits="0" branch="false"/>
+								<line number="294" hits="0" branch="false"/>
+								<line number="295" hits="0" branch="false"/>
+								<line number="297" hits="0" branch="false"/>
+								<line number="300" hits="0" branch="false"/>
+								<line number="303" hits="0" branch="false"/>
+								<line number="304" hits="0" branch="false"/>
+								<line number="307" hits="0" branch="false"/>
+								<line number="308" hits="0" branch="false"/>
+								<line number="312" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="313" hits="0" branch="false"/>
+								<line number="316" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="317" hits="0" branch="false"/>
+								<line number="319" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="320" hits="0" branch="false"/>
+								<line number="322" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="323" hits="0" branch="false"/>
+								<line number="327" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="callServlet" signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;" line-rate="0.0" branch-rate="0.0">
+							<lines>
+								<line number="202" hits="0" branch="false"/>
+								<line number="203" hits="0" branch="false"/>
+								<line number="205" hits="0" branch="false"/>
+								<line number="206" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="207" hits="0" branch="false"/>
+								<line number="209" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getBillingMethodRequest" signature="(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="136" hits="3" branch="false"/>
+							</lines>
+						</method>
+						<method name="getPPCRequestXMLString" signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="118" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="getRefillRequest" signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="58" hits="3" branch="false"/>
+							</lines>
+						</method>
+						<method name="getRefillValidationRequest" signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="95" hits="3" branch="false"/>
+							</lines>
+						</method>
+						<method name="getTimeStamp" signature="()Ljava/lang/String;" line-rate="1.0" branch-rate="0.5">
+							<lines>
+								<line number="169" hits="5" branch="false"/>
+								<line number="170" hits="5" branch="false"/>
+								<line number="171" hits="5" branch="false"/>
+								<line number="172" hits="5" branch="false"/>
+								<line number="173" hits="5" branch="false"/>
+								<line number="174" hits="5" branch="false"/>
+								<line number="175" hits="5" branch="false"/>
+								<line number="176" hits="5" branch="true" condition-coverage="50% (5/10)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+										<condition number="1" type="jump" coverage="50%"/>
+										<condition number="2" type="jump" coverage="50%"/>
+										<condition number="3" type="jump" coverage="50%"/>
+										<condition number="4" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="182" hits="5" branch="false"/>
+							</lines>
+						</method>
+						<method name="getXMLParameter" signature="(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;" line-rate="0.75" branch-rate="0.5">
+							<lines>
+								<line number="153" hits="10" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="154" hits="0" branch="false"/>
+								<line number="157" hits="10" branch="false"/>
+								<line number="160" hits="10" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="27" hits="0" branch="false"/>
+						<line number="29" hits="0" branch="false"/>
+						<line number="58" hits="3" branch="false"/>
+						<line number="95" hits="3" branch="false"/>
+						<line number="118" hits="1" branch="false"/>
+						<line number="136" hits="3" branch="false"/>
+						<line number="153" hits="10" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="154" hits="0" branch="false"/>
+						<line number="157" hits="10" branch="false"/>
+						<line number="160" hits="10" branch="false"/>
+						<line number="169" hits="5" branch="false"/>
+						<line number="170" hits="5" branch="false"/>
+						<line number="171" hits="5" branch="false"/>
+						<line number="172" hits="5" branch="false"/>
+						<line number="173" hits="5" branch="false"/>
+						<line number="174" hits="5" branch="false"/>
+						<line number="175" hits="5" branch="false"/>
+						<line number="176" hits="5" branch="true" condition-coverage="50% (5/10)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+								<condition number="1" type="jump" coverage="50%"/>
+								<condition number="2" type="jump" coverage="50%"/>
+								<condition number="3" type="jump" coverage="50%"/>
+								<condition number="4" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="182" hits="5" branch="false"/>
+						<line number="202" hits="0" branch="false"/>
+						<line number="203" hits="0" branch="false"/>
+						<line number="205" hits="0" branch="false"/>
+						<line number="206" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="207" hits="0" branch="false"/>
+						<line number="209" hits="0" branch="false"/>
+						<line number="226" hits="0" branch="false"/>
+						<line number="227" hits="0" branch="false"/>
+						<line number="228" hits="0" branch="false"/>
+						<line number="231" hits="0" branch="false"/>
+						<line number="233" hits="0" branch="false"/>
+						<line number="234" hits="0" branch="false"/>
+						<line number="235" hits="0" branch="false"/>
+						<line number="236" hits="0" branch="false"/>
+						<line number="237" hits="0" branch="false"/>
+						<line number="239" hits="0" branch="false"/>
+						<line number="242" hits="0" branch="false"/>
+						<line number="245" hits="0" branch="false"/>
+						<line number="246" hits="0" branch="false"/>
+						<line number="249" hits="0" branch="false"/>
+						<line number="250" hits="0" branch="false"/>
+						<line number="254" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="255" hits="0" branch="false"/>
+						<line number="258" hits="0" branch="false"/>
+						<line number="260" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="261" hits="0" branch="false"/>
+						<line number="263" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="264" hits="0" branch="false"/>
+						<line number="266" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="267" hits="0" branch="false"/>
+						<line number="285" hits="0" branch="false"/>
+						<line number="286" hits="0" branch="false"/>
+						<line number="287" hits="0" branch="false"/>
+						<line number="288" hits="0" branch="false"/>
+						<line number="291" hits="0" branch="false"/>
+						<line number="292" hits="0" branch="false"/>
+						<line number="293" hits="0" branch="false"/>
+						<line number="294" hits="0" branch="false"/>
+						<line number="295" hits="0" branch="false"/>
+						<line number="297" hits="0" branch="false"/>
+						<line number="300" hits="0" branch="false"/>
+						<line number="303" hits="0" branch="false"/>
+						<line number="304" hits="0" branch="false"/>
+						<line number="307" hits="0" branch="false"/>
+						<line number="308" hits="0" branch="false"/>
+						<line number="312" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="313" hits="0" branch="false"/>
+						<line number="316" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="317" hits="0" branch="false"/>
+						<line number="319" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="320" hits="0" branch="false"/>
+						<line number="322" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="323" hits="0" branch="false"/>
+						<line number="327" hits="0" branch="false"/>
+					</lines>
+				</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>
